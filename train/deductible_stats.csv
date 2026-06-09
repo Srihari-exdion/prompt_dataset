@@ -1,7 +1,7 @@
 ref_prompt,output_prompt,match,index
 deductible_with_coverage.yaml,deductible_with_coverage.yaml,True,0
-deductible_with_coverage.yaml,deductible_with_coverage.yaml,True,1
-deductible_with_coverage.yaml,subdeductible_with_coverage.yaml,False,2
+tabular_under_tag.yaml,deductible_with_coverage.yaml,False,1
+deductible_with_coverage.yaml,deductible_with_coverage.yaml,True,2
 deductible_with_coverage.yaml,deductible_with_coverage.yaml,True,3
 deductible_with_coverage.yaml,deductible_with_coverage.yaml,True,4
 deductible_with_coverage.yaml,deductible_with_coverage.yaml,True,5
@@ -76,7 +76,7 @@ new_under_header_tag.yaml,new_under_header_tag.yaml,True,73
 subdeductible_with_coverage.yaml,subdeductible_with_coverage.yaml,True,74
 deductible_with_auto_coverage.yaml,deductible_with_auto_coverage.yaml,True,75
 under_tag-two-coverage.yaml,under_tag-two-coverage.yaml,True,76
-subdeductible_with_coverage.yaml,retention_subdeductibles.yaml,False,77
+retention_subdeductibles.yaml,retention_subdeductibles.yaml,True,77
 subdeductible_with_coverage.yaml,subdeductible_with_coverage.yaml,True,78
 new_subdeductible-1.yaml,new_subdeductible-1.yaml,True,79
 under_tag-two-coverage.yaml,under_tag-two-coverage.yaml,True,80
@@ -165,10 +165,10 @@ deductible_auto_description.yaml,deductible_auto_description.yaml,True,162
 subdeductible_with_coverage.yaml,subdeductible_with_coverage.yaml,True,163
 subdeductible_with_coverage.yaml,subdeductible_with_coverage.yaml,True,164
 tabular_under_tag.yaml,tabular_under_tag.yaml,True,165
-tabular_under_tag.yaml,tabular_under_tag.yaml,True,166
-tabular_under_tag.yaml,tabular_under_tag.yaml,True,167
-tabular_under_tag.yaml,tabular_under_tag.yaml,True,168
-tabular_under_tag.yaml,tabular_under_tag.yaml,True,169
+Premises_Deductibles_format.yaml,Premises_Deductibles_format.yaml,True,166
+Premises_Deductibles_format.yaml,Premises_Deductibles_format.yaml,True,167
+Premises_Deductibles_format.yaml,Premises_Deductibles_format.yaml,True,168
+Premises_Deductibles_format.yaml,Premises_Deductibles_format.yaml,True,169
 retention_with_coverage.yaml,retention_with_coverage.yaml,True,170
 retention_with_coverage.yaml,retention_with_coverage.yaml,True,171
 deductible_with_percentage.yaml,deductible_with_percentage.yaml,True,172
@@ -219,11 +219,4 @@ deductible_with_coverage.yaml,deductible_with_coverage.yaml,True,216
 subdeductible_with_coverage.yaml,subdeductible_with_coverage.yaml,True,217
 new_subdeductible.yaml,new_subdeductible.yaml,True,218
 retention_undertag.yaml,retention_undertag.yaml,True,219
-multiple_columns_with_auto_coverage.yaml,multiple_columns_with_auto_coverage.yaml,True,220
-multiple_columns_with_auto_coverage.yaml,multiple_columns_with_auto_coverage.yaml,True,221
-deductible_with_auto_coverage.yaml,deductible_with_auto_coverage.yaml,True,222
-multiple_columns_with_auto_coverage.yaml,multiple_columns_with_auto_coverage.yaml,True,223
-multiple_columns_with_auto_coverage.yaml,multiple_columns_with_auto_coverage.yaml,True,224
-multiple_columns_with_auto_coverage.yaml,multiple_columns_with_auto_coverage.yaml,True,225
-multiple_columns_with_auto_coverage.yaml,multiple_columns_with_auto_coverage.yaml,True,226
-multiple_columns_with_auto_coverage.yaml,multiple_columns_with_auto_coverage.yaml,True,227
+under_header.yaml,under_header.yaml,True,220
