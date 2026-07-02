@@ -28,7 +28,7 @@ deductible:
 
 
 rules:
-- 'You will find a header on the top like (eg: "Retention", "RETENTIONS:", "Deductibles") — under these headers the values belong to deductibles.'
+- 'You will find a header on the top like (eg: "Retention", "RETENTIONS:", "Deductibles") — under these headers the vertically aligned $ amount values belong to deductibles.'
 - 'Ignore sections like "Territorial Limits", "Blanket Amount", or "Limits of Liability".'
 - 'Extract values row-wise based on horizontal alignment: coverage (left) → deductible (right).'
 - 'Skip rows containing "{invalid_headers}", "form number", "form no", "premium values" or with no valid deductible amount.'

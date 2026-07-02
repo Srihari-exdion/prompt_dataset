@@ -10,7 +10,7 @@ what_to_extract:
         - deductible amount:
             - 'Must contain only currency values related to policy deductible (examples: "$500", "20 hours", "10%", "$250,000.00 each Claim").'
             - 'If there are two deductible values (e.g., "{sublimits_and_aggregates}"), combine them into a single string separated by a comma (e.g., "10%, 10%").'
-            - 'Don't extract the amount from these or under these "{invalid_headers}".'
+            - 'Don't extract the amount from these or under these "{invalid_headers}", "{deductible_invalid}".'
             - 'Don't extract the amount from premium'.
 
         - subdeductible and aggregate:

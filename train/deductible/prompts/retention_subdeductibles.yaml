@@ -1,6 +1,6 @@
 field: 'deductible'
 
-also_appears_as: ["{deductible}"]
+also_appears_as: ["{deductible}", "Retention"]
 
 what_to_extract:
   retention:
@@ -8,14 +8,15 @@ what_to_extract:
       A list where each item has:
 
       - deductible amount:
-          - 'The retention/deductible value (examples: "$100,000", "$25,000", "$250,000 each Claim").'  "{extra_info}" 
+          - 'The retention/deductible value (examples: "$100,000", "$25,000", "$250,000 each Claim", "each incident $ 2,500").'  "{extra_info}" 
           - 'Include time-based values such as waiting periods (examples: "8 Hours", "1 Hour", "48 hours").'
           - 'Extract retention values only from columns labeled "Each Claim Retention", "Each Cyber Incident Retention", or rows mentioning Retention/Deductible.'
           - 'Do NOT extract values from the "Limit", "Aggregate", or "Sub-Limit" columns.'
           - 'Ignore premium-related values.'
+          - 'In between headers and the "$" amounts you may find paragraphs like (eg: "{paragraph_context_header}") ignore and extract vertical align "$" amounts values.'
           
       - subdeductible and aggregate:
-        - 'Extract the retention column header or sub-label associated with the retention amount (examples: "Each Cyber Incident Retention", "Each Claim Retention").'
+        - 'Extract the retention column header or sub-label associated with the retention amount (examples: "Each Cyber Incident Retention", "Each Claim Retention", "{sublimits_and_aggregates}").'
         - 'If the value corresponds to a Waiting Period, use "Waiting Period" as the sub deductible.'
         - 'If multiple retention types exist for different coverages, extract each coverage with its corresponding retention separately.'
 
