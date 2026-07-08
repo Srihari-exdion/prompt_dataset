@@ -11,7 +11,7 @@ what_to_extract:
           - 'The deductible value (examples: "20,000" "$500", "20 hours", "$1,000").'
           - 'Include "Waiting Period" values (e.g., "48hours", "24 hours") in the same field.'
           - 'extract $ amount deductibles under this header "Scheduled Auto Physical Damage Deductibles:" only.' 
-          - 'Ignore values that belong to "{invalid_coverage}", "{invalid_headers}", "{invalid_ded}".'
+          - 'Ignore values that belong to these "{invalid_coverage}", "{invalid_headers}", "{invalid_ded}" headers.'
           - 'Don't extract the amount from premium'.
 
 

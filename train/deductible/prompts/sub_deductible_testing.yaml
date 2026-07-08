@@ -8,11 +8,13 @@ what_to_extract:
       A list where each item represents a deductible entry and has:
 
         - deductible amount:
-          - 'Must contain only deductible values such as "$10,000", "$5,000", "10%", "5% subject to $1,000 minimum", "$250,000 each claim", "48 hours".'
+          - 'Must contain only deductible values such as ("$10,000", "$5,000", "10%", "5% subject to $1,000 minimum", "$250,000 each claim", "48 hours").'
           - 'Extract only values from the "Deductibles" column, NOT from the "Limits" column.'
           - 'If there are two deductible values on the same row, combine them into a single string separated by a comma.'
           - 'Do not extract values related to "{invalid_headers}", total payable, fees, or rates.'
           - 'Include time-based values (e.g., "48 hours") in the same field.'
+          - 'In between headers and the "$" amounts you may find huge gap between "deductibles" and $ amount values — ignore [[section_top_end]] and [[section_bottom_start]] and extract vertically aligned deductible $ amount values from table rows.'
+
 
         - subdeductible and aggregate:
           - 'Extract labels associated with the deductible such as "{sublimits_and_aggregates}" etc., if present near the deductible amount.'
