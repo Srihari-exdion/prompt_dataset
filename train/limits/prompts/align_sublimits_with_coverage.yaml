@@ -31,6 +31,7 @@ what_to_extract:
 
     rules:
       - 'If "{sublimits_and_aggregates}" have separate amount then, extract them separately as separate limits'
+      - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
       - 'Extract single line limits as well which are not in tabular format'
       - 'Skip entries where "deductible", "retention", "coverage retention", "insured entity retention", or "waiting period" is mentioned in row or column.'
       - 'Skip rows and columns containing "premium", "form number", "form no", "premium values" or with no valid limit amount.'

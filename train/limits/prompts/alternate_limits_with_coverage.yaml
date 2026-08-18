@@ -16,6 +16,7 @@ what_to_extract:
             - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
             - 'if multiple "{alternate_limits}" appear with different headers extract all $ amount under these header.'
             - 'Must contain only currency values **with the dollar symbol ($) included exactly as shown in the document**.'
+            - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
             - 'Do not extract the amount from premium'
         - coverage for limits:
             - 'assosisated description given by LIABILITY "{coverage}" etc.'

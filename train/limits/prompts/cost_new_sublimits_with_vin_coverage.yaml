@@ -19,6 +19,7 @@ what_to_extract:
           - 'Extract limit amount from both "{alternate_limits}" as well as "limits"'
           - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
           - 'Do not extract the limit amount from "Premiums", "Deductible" or "Ded" column'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
         - sublimits and aggregate:
             - '(example: "per day", "each", "Actual Cash Value")'

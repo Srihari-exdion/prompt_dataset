@@ -18,6 +18,8 @@ what_to_extract:
           - 'Ignore values that belong to "{invalid_coverage}".'
           - 'Extract limit amount from "{alternate_limits}", "{auto_coverage}" columns.'
           - 'Do not extract the limit amount from "Premiums", "Premium", "Ded" column.'
+          - 'never miss the vertically aligned limit values even if there is huge gap.'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
         - "coverage for limits":
           - 'Associated description given by "{vin_coverage}", "{auto_coverage}" and "coverages".'

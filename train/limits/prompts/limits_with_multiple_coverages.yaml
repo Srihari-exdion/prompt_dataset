@@ -17,6 +17,7 @@ what_to_extract:
             - 'Must contain only currency values **with the dollar symbol ($) included exactly as shown in the document**.'
             - 'Try to extract limit amount from each "{coverage}"'
             - 'Strictly ignore values belonging to: "{invalid_coverage}" or headers like: "{invalid_headers}"'
+            - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
         - coverage for limits:
             - 'Associated description given by "{coverage}" etc.'
             - '**CRITICAL:Scan the whole page and try to extract limits from each of the header "{coverage}"'

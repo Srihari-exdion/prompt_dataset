@@ -19,6 +19,7 @@ what_to_extract:
           - 'Must contain only currency values **with the dollar symbol ($) included exactly as shown in the document**'
           - 'Do not extract the amount from "premium"'
           - '"Retained Limits" is Deductible, so do not extract any "Retained Limits" amount or coverage'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
         - coverage for limits:
             - 'Associated description given by LIABILITY "{coverage}" etc.'

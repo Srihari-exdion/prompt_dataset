@@ -15,6 +15,7 @@ what_to_extract:
           - 'Extract from the header, "{stated_limit}"'
           - 'Ignore the premium value (e.g., "6,298") located directly above the stated limit.'
           - 'Ignore values ending in "Ded" or "Incl".'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
         - "auto coverage for limits":
           - 'Extract the "VIN" from the top row of the same vehicle block where the stated amount was found.'
           - 'Format: Use the label "Stated Limit or ACV with VIN [VIN NUMBER]".'

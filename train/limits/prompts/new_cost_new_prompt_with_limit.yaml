@@ -32,6 +32,7 @@ what_to_extract:
       - 'CRITICAL: Scan every table. You MUST extract from the top "DESCRIPTION/PURCHASED" table AND the bottom "COVERAGES" table separately.'
       - 'Extract multiple limit entries from multiple tables with respective headers.'
       - 'Extract single line limits as well which are not in tabular format.'
+      - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
       - 'Skip entries where "{deductible}" is mentioned.'
       - 'Skip rows containing "{invalid_headers}" or with no valid amount.'
       - 'Do not leave coverage fields blank — always pull the description/VIN from the same row or section as the amount.'

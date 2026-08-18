@@ -17,6 +17,7 @@ what_to_extract:
           - 'Combine all valid currency limits from the "{sublimits_and_aggregates}" columns on the same line into a single comma-separated string.'
           - 'Must contain only currency values **with the dollar symbol ($) included exactly as shown in the document**.''
           - 'Do not extract the amount from premium'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
         - sublimits and aggregate:
             - '(example: "each claim", "aggregate")'

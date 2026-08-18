@@ -1,6 +1,6 @@
 field: 'deductible'
 
-also_appears_as: ["deductible", "retention", "{deductible}"]
+also_appears_as: ["deductible", "retention", "ded", "{deductible}"]
 
 what_to_extract:
   deductible:

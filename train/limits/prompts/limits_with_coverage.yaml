@@ -1,6 +1,6 @@
 field: 'limits'
 
-also_appears_as: ["{limits}", "Attachment"]
+also_appears_as: ["{limits}", "Amount"]
 
 system_notes:
   - "REFERENCE ONLY: All examples provided in descriptions are for reference and context. Do not extract the example text itself unless it literally appears in the document."
@@ -11,12 +11,12 @@ what_to_extract:
     description: |
       A list where each item has:
         - limit amount:
-            - 'Extract values related to policy limits of liability. These may or may not contain a currency symbol like "$" or "USD". (examples: "$60,100", "2,010,000").'
+            - 'Extract values related to policy limits of liability. These may or may not contain a currency symbol like "$" or "USD". (examples: "$60,100", "2,010,000", "$645,596").'
             - 'Ignore values that belong to "{invalid_coverage}".'
             - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
             - 'Must contain only currency values **with the dollar symbol ($) included exactly as shown in the document**.'
             - 'Strictly ignore values belonging to: "{invalid_coverage}" or headers like: "{invalid_headers}".'
-            - 'extract separate when you see both amounts side by side if these headers found "{limits}", "Attachment" extract all $ amount that you found under these headers.'
+            - 'always dont extract two $ amounts in one string, separate them with respective headers and Coverage.'
 
         - coverage for limits:
             - 'Associated description given by LIABILITY "{coverage}" etc..'

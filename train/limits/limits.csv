@@ -135,11 +135,8 @@ cmerged_01.pdf,3,Business Auto,SSD,limits,sublimits_with_coverage.yaml,cmerged_0
 1003umb20260317100336114_umb_ct00.pdf,7,Business Auto,SSD,limits,limits_with_coverage.yaml,1003umb20260317100336114_umb_ct00-7.json
 1099Enr20260312124518810_Enr_ct00.pdf,4,Business Auto,SSD,limits,sublimits_with_coverage.yaml,1099Enr20260312124518810_Enr_ct00-4.json
 Binder (1).pdf,3,Business Auto,SSD,limits,sublimits_with_coverage.yaml,Binder-3.json
-1006aut20260109065121736_aut_ct00.pdf,79,Business Auto,SSD,limits,cost_new_limit_with_vin_coverage.yaml,1006aut20260109065121736_aut_ct00-79.json
-1006aut20260109065121736_aut_ct00.pdf,80,Business Auto,SSD,limits,cost_new_limit_with_vin_coverage.yaml,1006aut20260109065121736_aut_ct00-80.json
-1006aut20260109065121736_aut_ct00.pdf,67,Business Auto,SSD,limits,sublimits_with_amt.yaml,1006aut20260109065121736_aut_ct00-67.json
-1006aut20260109065121736_aut_ct00.pdf,67,Business Auto,SSD,limits,sublimits_with_amt.yaml,1006aut20260109065121736_aut_ct00-67.json
-1003aut20260106061100334_aut_ct00.pdf,18,Business Auto,SSD,limits,sublimits_with_amt.yaml,1003aut20260106061100334_aut_ct00-18.json
+1006aut20260109065121736_aut_ct00.pdf,79,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260109065121736_aut_ct00-79.json
+1006aut20260109065121736_aut_ct00.pdf,80,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260109065121736_aut_ct00-80.json
 1003cgl20260106062158693_cgl_ct00.pdf,17,Business Auto,SSD,limits,sublimits_with_coverage.yaml,1003cgl20260106062158693_cgl_ct00-17.json
 1004aut20260109112827352_aut_ct00.pdf,2,Business Auto,SSD,limits,stated_amt_with_coverage.yaml,1004aut20260109112827352_aut_ct00-2.json
 Binder-GeneralLiability   ...pdf,18,Business Auto,SSD,limits,limits_with_coverage.yaml,Binder-GeneralLiability-18.json
@@ -151,3 +148,36 @@ Binder-GeneralLiability   ...pdf,18,Business Auto,SSD,limits,limits_with_coverag
 1165cbl1202605282310000009_CT.pdf,3,Cyber Liability,MSD,limits,sublimits_with_coverage.yaml,1165cbl1202605282310000009_CT-3.json
 26-27 Excess Flood Binder - RSUI.PDF_Binder.pdf,1,General Liability,AR,limits,sublimits_with_coverage.yaml,26-27 Excess Flood Binder – RSUI.PDF_Binder.json
 1003aut20260501025426870_Quote.pdf,2,Business Auto,SSD,limits,alternate_limits_with_auto_coverage.yaml,1003aut20260501025426870_Quote-2.json
+1003aut20260106061100334_aut_ct00.pdf,8,Business Auto,SSD,limits,cost_new_with_vin_only.yaml,1003aut20260106061100334_aut_ct00.json
+1003cgl20260105064438818_cgl_ct00.pdf,21,General Liability,AR,limits,sublimits_with_coverage.yaml,1003cgl20260105064438818_cgl_ct00-21.json
+1006aut20260520083441232_CT.pdf,16,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260520083441232_CT-16.json
+1006aut20260520083441232_CT.pdf,14,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260520083441232_CT-14.json
+1006aut20260520083441232_CT.pdf,17,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260520083441232_CT-17.json
+1006aut20260520083441232_CT.pdf,18,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260520083441232_CT-18.json
+1006aut20260520083441232_CT.pdf,19,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260520083441232_CT-19.json
+1006aut20260520083441232_CT.pdf,13,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1006aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,1,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1007aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,2,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1008aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,3,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1009aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,4,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1010aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,5,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1011aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,6,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1012aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,7,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1013aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,8,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1014aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,9,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1015aut20260520083441232_CT-13.json
+converted_1006aut20260520083441232_CT.pdf,10,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1016aut20260520083441232_CT-13.json
+Proposal.PDF,12,General Liability,AR,limits,vertical-limits-values-extraction.yaml,Proposal-12.json
+Proposal.PDF,13,General Liability,AR,limits,vertical-limits-values-extraction.yaml,Proposal-13.json
+Proposal.PDF,14,General Liability,AR,limits,vertical-limits-values-extraction.yaml,Proposal-14.json
+Proposal.PDF,15,General Liability,AR,limits,vertical-limits-values-extraction.yaml,Proposal-15.json
+26-27 All Lines Proposal Draft- 5-22-26_Proposal.pdf,18,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,26-27 All Lines Proposal Draft- 5-22-26_Proposal-18.json
+Community Health Centers  26-27 Proposal.PDF,22,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,Community Health Centers  26-27 Proposal-22.json
+1082aut20260520042333739_CT.pdf,15,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1082aut20260520042333739_CT-15.json
+1082aut20260520042333739_CT.pdf,16,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1082aut20260520042333739_CT-16.json
+1099dol20260520072418092_Binder.pdf,3,General Liability,AR,limits,limits_with_attachment_headers_with_coverage.yaml,1099dol20260520072418092_Binder-3.json
+1003ilm20260803062744316_ilm_ct00.pdf,27,General Liability,AR,limits,limits_with_coverage.yaml,1003ilm20260803062744316_ilm_ct00-27.json
+1151pol1202607300220000007_pol_ct00.pdf,8,Business Auto,SSD,limits,sublimit_with_multiple_coverage.yaml,1151pol1202607300220000007_pol_ct00-8.json
+1003aut20260803065143793_aut_ct00.pdf,7,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1003aut20260803065143793_aut_ct00-7.json
+1003aut20260803065143793_aut_ct00.pdf,18,Business Auto,SSD,limits,vertical-aligned-limit-values.yaml,1003aut20260803065143793_aut_ct00-18.json
+1003aut20260106061100334_aut_ct00.pdf,18,Business Auto,SSD,limits,auto_limits_with_auto_coverage.yaml,1003aut20260106061100334_aut_ct00-18.json
+1099dol20260520072418092_CT.pdf,3,General Liability,AR,limits,limits_with_attachment_headers_with_coverage.yaml,1099dol20260520072418092_CT-3.json

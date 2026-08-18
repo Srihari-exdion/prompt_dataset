@@ -17,6 +17,7 @@ what_to_extract:
             - 'Entries are available in two columns, extract all the rows from both the columns'
             - 'Extract the whole row, example ("Debris Removal Expense - 25 of loss up to an additional $50,000 Accounts Receivable $100,000)'
             - 'Do not extract the amount from premium'
+            - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
         - coverage for limits:
             - 'Associated description given by LIABILITY "{coverage}" etc.'

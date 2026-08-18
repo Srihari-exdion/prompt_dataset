@@ -16,6 +16,7 @@ what_to_extract:
           - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
           - 'Do not extract the amount from premium'
           - 'Do not extract from "Deductible", "Comp Deductible" or "Comp Deductible"'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
         - auto coverage for limits:
           - 'Associated description given by LIABILITY "{auto_coverage}", "VIN" etc.'
           - 'Assign "{alternate_limits}" to "{vin_coverage}", example "Stated Amount $2,000.00'

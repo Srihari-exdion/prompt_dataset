@@ -18,6 +18,7 @@ what_to_extract:
           - 'Ignore values that belong to "{invalid_coverage}".'
           - 'Do not extract the limit amount from "Premiums" or "Premium" column'
           - 'If header is "Premium", "Premiums", or "Deductible" do not extract that amount'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
         - "vehicle identification for limits":
           - 'Associated description given by "{vin_coverage}"'

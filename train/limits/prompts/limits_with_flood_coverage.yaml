@@ -16,6 +16,7 @@ what_to_extract:
             - 'Ignore values that belong to "{invalid_coverage}".'
             - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
             - 'Do not extract the amount from premium'
+            - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
         - coverage for limits:
             - 'Associated description given by "{flood_coverage}", "{limits}" etc.'
             - 'Extract limit amount from "{flood_coverage}" "{limits}" respectively.'

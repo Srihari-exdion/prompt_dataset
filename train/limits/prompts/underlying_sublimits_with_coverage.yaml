@@ -18,6 +18,7 @@ what_to_extract:
           - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
           - 'Must contain only currency values **with the dollar symbol ($) included exactly as shown in the document**.'
           - 'Strictly ignore values belonging to: "{invalid_coverage}" or headers like: "{invalid_headers}"'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
           
       - sublimits and aggregate:

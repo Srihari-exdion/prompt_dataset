@@ -16,8 +16,10 @@ what_to_extract:
           - 'CRITICAL:DO NOT extract If a value is found under a header like "{deductible}", they are invalid limit.'
           - 'Ignore values that belong to "{invalid_coverage}".'
           - 'Must contain only currency values with the dollar symbol ($) included exactly as shown in the document'
-          - 'Do not extract the amount from "premium"'
-          - 'extract from "TIV" means "total insured value" and its beakdown values.'
+          - 'Do not extract the amount from premium.
+          - 'Do not extract the amount from these context "{invalid_headers}" headers cause these are invalid limits.'
+          - '**extract the $ amount from the "TIV" means "total insured value" and its beakdown values.**'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
 
                    
         - sublimits and aggregate:

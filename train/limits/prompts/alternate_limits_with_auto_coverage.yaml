@@ -11,12 +11,13 @@ what_to_extract:
     description: |
       A list where each item has:
         - limit amount:
-          - 'Extract values related to policy limits of liability. These may or may not contain a currency symbol like "$" or "USD". (examples: "Insured Value 24,205", "$2,010,000", "27,645" "{alternate_limits}"). "{extra_info}"'
+          - 'Extract values related to policy limits of liability. These may or may not contain a currency symbol like "$" or "USD". (examples: "Insured Value 24,205", "$2,010,000", "27,645" "{alternate_limits}").'
           - 'Ignore values that belong to "{invalid_coverage}".'
           - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
-          - 'if multiple "{alternate_limits}" appear with different headers extract all $ amount under these header.'
+          - 'If multiple "{alternate_limits}" headers appear, extract all dollar ($) amounts under each header.'
           - 'Must contain only currency values **with the dollar symbol ($) included exactly as shown in the document**.'
           - 'Do not extract the amount from premium.'
+          - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
           - 'Do not extract from "Ded" - "Deductible".'
 
         - auto coverage for limits:
@@ -35,6 +36,7 @@ what_to_extract:
     rules:
       - 'Extract single line limits as well which are not in tabular format'
       - 'Skip entries where "{deductible}" is mentioned.'
+      - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
       - 'Skip rows containing "{invalid_headers}" or with no valid limit amount.'
       - 'Do not leave "coverage for limits" blank — always pull the description from the "VIN", "Vehical Identification Number" as the limit.'
       - 'Preserve formatting exactly as shown in the source (e.g., "Inured Value $52,000", "$100,000 Actual Cash Value").'

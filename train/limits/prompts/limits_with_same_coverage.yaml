@@ -12,6 +12,7 @@ what_to_extract:
         - limit amount:
             - 'Extract values related to policy limits of liability. These may or may not contain a currency symbol like "$" or "USD". "{extra_info}"'
             - 'If multiple valid limits appear in the same row, combine them into a single string, comma-separated.'
+            - 'if there is any context of "{deductible}", "Comprehensive Deductible", "Collision Deductible" dont extract cause its invalid limits.'
             
         - coverage for limits:
             - 'Extract the full description of the liability coverage (e.g., "{coverage}").'
